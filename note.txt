@@ -1,0 +1,38 @@
+Xây dựng website đặt lịch và bán xe ô tô điện cho hãng Vinfast
+1. các chức năng của website:
+* Client(người dùng)
+- Mua xe trực tuyến(đặt cọc)(Hoàng) (xong)
+- Đăng nhập, đăng xuất, đăng kí (làm rồi)-Quản lý thông tin cá nhân - tài khoản(Hướng dẫn)
+- Đăng ký lái thử (Liên quan đến địa điểm) (Phúc)
+- Đặt lịch dịch vụ (Hoàng)  
+- Xây dựng trang bán hàng (Thăng) - oke
+ 
+- Thanh toán.
+
+* Admin
+- Quản lý thông tin người dùng () - Hướng dẫn
+- Đăng tin tức(thời gian, chức năng chia sẻ) (Phúc)
+- Đăng bán hàng(linh kiện)(Thăng)- oke
+
+Bổ xung
+- so sánh
+
+Thiết kế hệ thống:
+*Admin
+- Bán linh kiện:
++
+Lỗi: Phần thêm sản phẩm và sửa sản phẩm có lỗi chưa chọn ảnh nhưng vẫn nhập 
+vào db thành công.
+
+
+Xe ô tô(ô tô điện và ô tô xăng)
+- Tên xe 
+- Loại xe (xăng, điện) (0,1);
+- Giá bán
+- Số ghế ngồi
+- Mức tiêu thụ năng lượng (nhiên liệu, điện năng)
+- Dung tích (nhiên liệu, pin)
+- Mô tả
+- Hình ảnh
+- công suất tối đa
+

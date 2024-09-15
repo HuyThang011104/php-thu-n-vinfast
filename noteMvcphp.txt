@@ -1,0 +1,1 @@
+Phần model để thực hiện các phần sử lý.

@@ -1,0 +1,24 @@
+bootstrap: sử lý router
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRude ^(.+)$ index.php/$1 [L,QSA]
+
+
+echo '<pre>';
+print_r($urlArr);
+echo '</pre>';
+
+mình nghĩ các file cũng giống như class. nếu đặt tên class giống tên file thì không cần 
+require_once cũng sẽ gọi được (chat gpt: không đúng);
+controller: điều hướng
+model: thực hiện chức năng database, các function
+view: hiển thị giao điện người dùng
+
+file trong thư mục controller sẽ kế thừa đến class controller trong thư mục core. Mà class controller lại 
+require_once đến các file trong thư mục models. Nên controller điều hướng đến models;
+Tương tự phần (Controller) điều hướng đến phần (View) cũng sử dụng class controller có 
+thuộc tính view trong thư mục core. 

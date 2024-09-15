@@ -1,0 +1,41 @@
+/* style */
+h1{
+    color: rgb(29, 31, 31);
+}
+header > nav{
+    height: 80px;
+    padding: 16px 30px !important;
+}
+td {
+    overflow-y: scroll;
+}
+
+td::-webkit-scrollbar {
+    display: none;
+}
+
+.cover-ranger {
+    position: relative;
+}
+
+#value-range {
+    position: absolute;
+    top: 227px;
+}
+
+#value-range2 {
+    position: absolute;
+    top: 227px;
+    right: 42%;
+}
+
+.display_desc {
+    position: absolute;
+    padding: 0 5px;
+    width: 82%;
+    height: 85px;
+    top: 0;
+    left: 0%;
+    background-color: white;
+    border: solid 2px #2c88d7;
+} 
